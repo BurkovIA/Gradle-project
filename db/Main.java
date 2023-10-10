@@ -1,20 +1,16 @@
-package org.example;
-
 import java.util.UUID;
 
-public class Main<DbSetting> {
-    public static void main(String[] args) {
-        class DbSetting {
+public class Main {
+    public class DbSetting {
 
-            private String name;
-            private String password;
+        private String name;
+        private String password;
 
-            public DbSetting(String name, String password) {
-                this.name = name;
-                this.password = password;
-            }
-
+        public DbSetting(String name, String password) {
+            this.name = name;
+            this.password = password;
         }
+
     }
     public class MyEntity {
 

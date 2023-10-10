@@ -1,2 +1,4 @@
-package org.example;public class DbSetting {
+package org.example;
+
+public class DbSetting {
 }
